@@ -27,7 +27,8 @@ function getHTML (options, callback) {
       callback(allData);
     });
   });
+};
 
+module.exports = getHTML
 
-}
 getHTML(requestOptions, printHTML);
